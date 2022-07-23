@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Advent Pro', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    margin: 55px 0 25px 76px;
+  }
+  
+  .link-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color:white;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: 23px;
+    text-align: center;
+}
+
+button {
+    width: 130px;
+    height: 41px;
+    background: #665ae1;
+    border-radius: 20.5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  button:last-child {
+    width: 130px;
+    height: 41px;
+    background: green;
+    border-radius: 20.5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+button {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
+button {
+	transition: all 0.3s;
+}
+button::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+button:hover span {
+	letter-spacing: 2px;
+}
+button:hover::before {
+	opacity: 1;	
+	transform: scale(1, 1);	
+}
+button::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+button:hover::after {
+	opacity: 0;	
+	transform: scale(0.1, 1);
+}
+
+img {
+    width: 700px;
+    height: 800px;
+    margin-bottom: 650px;
+    margin-left: 50px;
+  }
+
+  .containerleft {
+    display: inline-block;
+    width: 800px;
+}
+  
+.containerright {
+    display: inline-block;
+    margin-left: 76px;
+  }
+  
+  h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 122px;
+    color: #515151;
+  }
+
+  p {
+    width: 615px;
+
+    margin: 16px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: black;
+    letter-spacing: 2px;
+  }
+
+.box {
+    width: 20px;
+    height: 20px;
+}

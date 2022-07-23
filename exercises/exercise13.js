@@ -1,7 +1,10 @@
-/* [ 13 ] Crie um programa que mostra o tamanho do Array. Ex: const array = [0, 1] imprime: 2. const array = ["banana", "Maça", "laranja"] imprime: 3. */
+/* [ 13 ] Faça um programa onde entramos com dois números, e ele imprime se o primeiro número é maior que o segundo. Ex: 2 e 5. Imprime: false.Faça um programa 
+onde entramos com dois números, e ele imprime se o primeiro número é menor que o segundo. Ex: 2 e 5. Imprime: true. */
 
-const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+const number3 = 24
+const number4 = 25
 
-const array2 = ['Maça', 'Banana', 'Abacaxi', 'Graviola',]
+const test1 = number3 > number4
+const test2 = number3 < number4
 
-console.log(array.length)
+console.log(test1)
