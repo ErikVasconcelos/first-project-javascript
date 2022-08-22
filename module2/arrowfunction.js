@@ -11,6 +11,19 @@ const sum = function (number1, number2) { // function anônima - armazenada dent
     return number1 + number2
 }
 
+Algumas formas de escrever uma função:
+
+(1) const newArray = numbers.map( function(number) {
+    return number * 2
+})
+
+(2) const newArray = numbers.map( (number) => {
+    return number * 2
+})
+
+(3) const newArray = numbers.map( number => number * 3 ) Na mesma linha ele automaticamente insere um return
+
+
 */
                               
 const sum = (number1, number2) => number1 + number2 // (=>) é uma arrow function, após a seta ela já retorna.
